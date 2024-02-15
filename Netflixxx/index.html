@@ -28,8 +28,8 @@
       <span>Watch anywhere. Cancel anytime.</span>
       <span>Ready to watch? Enter your email to create or restart your membership.</span>
       <div>
-        <input type="text" id="emailInput" placeholder="Email address">
-        <button class="getStarted">Get Started <img src="Assests/image/leftArrow.svg" alt=""></button>
+        <input type="text" id="emailInput1" placeholder="Email address">
+        <button class="getStarted1">Get Started <img src="Assests/image/leftArrow.svg" alt=""></button>
       </div>
     </div>
 
@@ -119,8 +119,8 @@
     </div>
     <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
     <div>
-      <input class="email2" id="emailInputs" type="text" placeholder="Email address">
-      <button class="getStarted">Get Started <img src="Assests/image/leftArrow.svg" alt=""></button>
+      <input class="email2" id="emailInput2" type="text" placeholder="Email address">
+      <button class="getStarted2">Get Started <img src="Assests/image/leftArrow.svg" alt=""></button>
     </div>
   </section>
   <div class="sepration"></div>
@@ -161,24 +161,35 @@
     </div>
     Made by Aditya &copy;
   </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Get the email input element
+      var emailInput1 = document.getElementById("emailInput1");
   
+      // Get the Get Started button
+      var getStartedButton1 = document.querySelector(".getStarted1");
+  
+      // Add a click event listener to the Get Started button
+      getStartedButton1.addEventListener("click", function() {
+        // Reset the value of the email input field
+        emailInput1.value = "";
+      });
+
+      var emailInput2 = document.getElementById("emailInput2");
+  
+      // Get the Get Started button
+      var getStartedButton2 = document.querySelector(".getStarted2");
+  
+      // Add a click event listener to the Get Started button
+      getStartedButton2.addEventListener("click", function() {
+        // Reset the value of the email input field
+        emailInput2.value = "";
+      });
+    });
+  </script>
+
 
 </body>
 
 </html>
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    // Get the email input element
-    var emailInput = document.getElementById("emailInput");
-
-    // Get the Get Started button
-    var getStartedButton = document.querySelector(".getStarted");
-
-    // Add a click event listener to the Get Started button
-    getStartedButton.addEventListener("click", function() {
-      // Reset the value of the email input field
-      emailInput.value = "";
-    });
-  });
-</script>
-
