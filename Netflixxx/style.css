@@ -148,7 +148,7 @@ input[type="text"]::placeholder {
     vertical-align: middle;
 }
 
-.getStarted {
+.getStarted1, .getStarted2 {
     height: 59px;
     width: 229px;
     border-radius: 5px;
@@ -166,11 +166,11 @@ input[type="text"]::placeholder {
     transition: all 1s ease-out;
 }
 
-.getStarted:hover {
+.getStarted1:hover, .getStarted2:hover {
     background-color: rgba(229, 9, 20, 0.89);
 }
 
-.getStarted img {
+.getStarted1 img, .getStarted2 img {
     height: 23px;
     /* Adjust the height of the arrow icon */
     width: 24px;
