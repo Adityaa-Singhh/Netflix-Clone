@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: black;
+    width: auto;
+}
+
+.main {
+    background-image: url("Assests/image/IN-en-20240115-trifectadaily-perspective_alpha_website_small.jpg");
+    height: 74vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: none;
+    background-size: max(1200px, 100vw);
+
+}
+
+.main .box {
+    height: 74vh;
+    width: 100%;
+    opacity: 0.64;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 74vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+    padding-top: 20px;
+}
+
+nav img {
+    color: #e50914;
+    width: 154px;
+    position: relative;
+    z-index: 20;
+    filter: brightness(150%);
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 82px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    position: relative;
+    gap: 25px;
+    padding: 0px 30px;
+}
+
+.hero> :first-child {
+
+    font-weight: 900;
+    font-size: 48px;
+    Color: #ffffff;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    Color: #ffffff;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+div button {
+    position: relative;
+    z-index: 20;
+}
+
+.english-button {
+    width: 110px;
+    height: 32px;
+    background-color: rgba(21, 15, 18, 0.637);
+    font-weight: 400;
+    font-size: 19px;
+    color: #ffffff;
+    border-radius: 6px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.english-button img{
+    padding-right: 8px;
+}
+
+.sign-in-button {
+    width: 85px;
+    height: 32px;
+    background-color: rgb(229, 9, 20);
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid rgb(229, 9, 20);
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+
+.sign-in-button:hover {
+    background-color: rgba(229, 9, 20, 0.89);
+}
+
+input[type="text"] {
+    display: inline-flex;
+    height: 59px;
+    width: 387px;
+    background-color: rgba(21, 15, 18, 0.637);
+    border-radius: 5px;
+    border: 2px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: left;
+    line-height: 24px;
+    position: relative;
+    z-index: 20;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"]::placeholder {
+    color: #ffffff;
+    opacity: 0.7;
+    vertical-align: middle;
+}
+
+.getStarted {
+    height: 59px;
+    width: 229px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 550;
+    line-height: 24px;
+    background-color: rgb(229, 9, 20);
+    position: relative;
+    border: 2px solid rgb(229, 9, 20);
+    vertical-align: middle;
+    z-index: 20;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+
+.getStarted:hover {
+    background-color: rgba(229, 9, 20, 0.89);
+}
+
+.getStarted img {
+    height: 23px;
+    /* Adjust the height of the arrow icon */
+    width: 24px;
+    /* Adjust the width of the arrow icon */
+    vertical-align: middle;
+    margin-right: 8px;
+    filter: invert(1) brightness(500%);
+    /* fill: #ffffff;  Does not work here*/
+    line-height: 24px;
+}
+
+.sepration {
+    height: 9px;
+    background-color: rgb(35, 35, 35);
+    position: relative;
+    z-index: 20px;
+}
+
+.container {
+    display: flex;
+
+    max-width: 73vw;
+    /* height: 87vh; */
+    /* justify-content: space-around; */
+    margin: auto;
+    /* margin-bottom: 38px;
+    margin-top: 10px; */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    /* Change the height property to auto or the desired value */
+    padding: 72px;
+}
+
+.container1 {
+    color: #ccc;
+    text-align: left;
+    width: 36vw;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+    justify-content: center;
+
+
+}
+
+.container1> :nth-child(1) {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.container1> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.third .container2 {
+    position: relative;
+    align-items: center;
+}
+
+.third .container2 img {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+
+.third .container2 video {
+    width: 61%;
+    position: absolute;
+    top: 43px;
+    right: 129px;
+}
+
+.faqbox {
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    background-color: rgb(45, 45, 45);
+    max-width: 70vw;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 12px auto;
+    cursor: pointer;
+    transition: all 1s ease-out;
+
+}
+
+.faq {
+    color: #ffffff;
+    padding: 34px;
+    text-align: center;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+
+}
+
+.faq h3 {
+    padding-top: 40px;
+    padding-bottom: 34px;
+    font-size: 21px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 17px;
+    font-weight: 400;
+    max-width: 81vw;
+    margin: auto;
+    padding: 34px;
+}
+
+footer .question {
+    padding: 34px 0px;
+}
+
+.container2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.container2 .media-container {
+    position: relative;
+    width: 100%;
+}
+
+.container2 img {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+
+.container2 video {
+    width: 73%;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    right: 86px;
+}
+
+.getStarted2 {
+    height: 59px;
+    width: 229px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 550;
+    line-height: 24px;
+    background-color: rgb(229, 9, 20);
+    position: relative;
+    border: 2px solid rgb(229, 9, 20);
+    vertical-align: middle;
+    z-index: 20;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+
+@media screen and (max-width:1400px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 29px
+    }
+
+    .hero> :nth-child(2) {
+        font-weight: 400;
+        font-size: 18px;
+        Color: #ffffff;
+        text-align: center;
+    }
+
+    .hero> :first-child {
+
+        font-weight: 900;
+        font-size: 32px;
+        Color: #ffffff;
+        text-align: center;
+    }
+
+    nav {
+        max-width: 95vw;
+    }
+
+    .container1> :nth-child(1) {
+        font-size: 32px;
+        color: #ffffff;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+
+    .container1> :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    .container1 {
+        width: 66vw;
+    }
+
+    footer {
+        font-size: 13px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    .faq h3 {
+        padding-top: 40px;
+        padding-bottom: 34px;
+        font-size: 18px;
+    }
+
+    .getStarted {
+        margin-left: 66px;
+    }
+
+    nav img {
+        width: 135px;
+    }
+
+    .english-button {
+        width: 95px;
+        font-size: 16px;
+    }
+
+    .sign-in-button {
+        width: 67px;
+        font-size: 14px;
+    }
+
+    input[type="text"] {
+        margin-bottom: 24px;
+        width: 320px;
+    }
+
+    .email2 {
+        width: 320px;
+    }
+
+    .container2 video {
+        width: 85%;
+        height: auto;
+        object-fit: cover;
+        position: absolute;
+        top: 40px;
+        right: 2px;
+    }
+
+}
+
+@media screen and (max-width:1400px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .third .container2 video {
+        width: 61%;
+        top: 47px;
+        right: 125px;
+
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .third .container2 video {
+        width: 61%;
+        top: 18px;
+        right: 49px;
+    }
+}
+
+@media screen and (min-width:530px) and (max-width: 900px) {
+    .third .container2 video {
+        width: 61%;
+        top: 45px;
+        right: 109px;
+    }
+}
